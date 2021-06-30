@@ -201,6 +201,14 @@ body {
   font-weight: 600;
 }
 
+.footer {
+  background-color: #09b13b;
+  padding: 10 0;
+  font-size: 1.4rem;
+}
+.footer__logo {
+  width: 15rem;
+}
 .about {
   background-color: #f7f7f7;
   padding: 25rem 16rem;
