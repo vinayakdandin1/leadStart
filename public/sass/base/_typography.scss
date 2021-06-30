@@ -23,13 +23,22 @@ body {
         animation-name: moveInLeft;
         animation-duration: 1s;
         animation-timing-function: ease-out;
+
+        &--1 {
+            color: #2f2f35;
+        }
+
+        &--2 {
+            color: #d01423;
+        }
+
     }
     
     &--sub {
         display: block;
         font-size: 2rem;
         font-weight: 600;
-        letter-spacing: .82rem;
+        letter-spacing: .8rem;
         padding-top: 1rem;
     
         animation: moveInRight 1s ease-out;
