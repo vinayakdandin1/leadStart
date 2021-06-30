@@ -89,6 +89,20 @@ body {
   animation: moveInRight 1s ease-out;
 }
 
+.heading-secondary {
+  font-size: 3.5rem;
+  text-transform: uppercase;
+  font-weight: 600;
+  display: inline-block;
+  background-image: linear-gradient(to right, #7ed56f, #28b485);
+  -webkit-background-clip: text;
+  color: transparent;
+}
+
+.u-center-text {
+  text-align: center;
+}
+
 .button:link, .button:visited {
   text-transform: uppercase;
   text-decoration: none;
@@ -97,6 +111,7 @@ body {
   border-radius: 10rem;
   transition: all 0.2s;
   position: relative;
+  font-size: 1.6rem;
 }
 .button:hover {
   transform: translateY(-0.3rem);
@@ -136,6 +151,14 @@ body {
   animation-fill-mode: backwards;
 }
 
+.button-text:link, .button-text:visited {
+  font-size: 1.6rem;
+  color: #55c57a;
+  display: inline-block;
+  text-decoration: none;
+  border-bottom: 1px solid #55c57a;
+  padding: 3px;
+}
 .header {
   padding-top: 8rem;
   height: 95vh;
@@ -163,9 +186,26 @@ body {
 }
 
 .about {
+  background-color: #f7f7f7;
+  padding: 25rem 16rem;
+  margin-top: -20vh;
+}
+.about__description {
   display: flex;
   justify-content: space-around;
   align-items: center;
+  padding-top: 5rem;
+}
+.about__description__main {
+  text-align: left;
+}
+.about__description__main p {
+  width: 23vw;
+  font-size: 1.6rem;
+}
+.about__description__sub img {
+  width: 30vw;
+  border-radius: 3px;
 }
 
 /*# sourceMappingURL=styles.css.map */

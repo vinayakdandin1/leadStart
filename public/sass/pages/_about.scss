@@ -1,7 +1,33 @@
 .about {
 
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
+    background-color: $color-grey-light-1;
+    padding: 25rem 16rem;
+    margin-top: -20vh;
+
+    &__description {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        padding-top: 5rem;
+
+        &__main {
+
+            text-align: left;
+
+            p {
+                width: 23vw;
+                font-size: $default-font-size;
+            }
+        }
+
+        &__sub {
+
+            img {
+                width: 30vw;
+                border-radius: 3px;
+            }
+            
+        }
+    }
 
 }
