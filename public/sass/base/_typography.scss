@@ -54,3 +54,11 @@ body {
     -webkit-background-clip: text;
     color: transparent;
 }
+
+.heading-tertiary {
+    font-size: 3.5rem;
+    text-transform: uppercase;
+    font-weight: 500;
+    color: $color-white;
+    padding-bottom: 4rem;
+}

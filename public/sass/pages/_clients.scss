@@ -1,5 +1,5 @@
 .section-clients {
-    padding: 20rem 0;
+    padding: 14rem 10rem 20rem 10rem;
     background-image: linear-gradient(
         to right bottom, 
         rgba($color-primary-light, 0.85), 
@@ -9,9 +9,26 @@
     background-size: cover;
     transform: skewY(-7deg);
     margin-top: -11.5rem;
+    text-align: center;
 
     & > * {
         transform: skewY(7deg);
+    }
+
+}
+
+.clients {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+
+    padding: 0 15rem;
+
+
+    &__main {
+        display: flex;
+        justify-content: center;
     }
 
 }

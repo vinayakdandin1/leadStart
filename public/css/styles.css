@@ -99,6 +99,14 @@ body {
   color: transparent;
 }
 
+.heading-tertiary {
+  font-size: 3.5rem;
+  text-transform: uppercase;
+  font-weight: 500;
+  color: #fff;
+  padding-bottom: 4rem;
+}
+
 .u-center-text {
   text-align: center;
 }
@@ -276,14 +284,27 @@ body {
 }
 
 .section-clients {
-  padding: 20rem 0;
+  padding: 14rem 10rem 20rem 10rem;
   background-image: linear-gradient(to right bottom, rgba(126, 213, 111, 0.85), rgba(40, 180, 133, 0.85)), url(../images/soc.jpg);
   background-size: cover;
   transform: skewY(-7deg);
   margin-top: -11.5rem;
+  text-align: center;
 }
 .section-clients > * {
   transform: skewY(7deg);
+}
+
+.clients {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 0 15rem;
+}
+.clients__main {
+  display: flex;
+  justify-content: center;
 }
 
 /*# sourceMappingURL=styles.css.map */
