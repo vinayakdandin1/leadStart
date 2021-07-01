@@ -6,8 +6,14 @@ const app = express();
 app.set("view engine", "ejs");
 app.use(express.static("public"));
 
+ let clientList = [{src: "images/bicard.png", description: "Bicard Institute Pune"},
+                   {src: "images/mehak.jpg", description: "Makeup By Madhu SK, Dharwad"}, 
+                   {src: "images/mehak.jpg", description: "Mehak Spices"}, 
+                   {src: "images/kala.png", descriptoin: "Kala Creations"}, 
+                   {src: "images/abhijit.png", description: "Abhijit Gurram Photography Pune"}] 
+
 app.get("/", function(req, res) {
-    res.render("main")
+    res.render("main", {clients: clientList})
 })
 
 let port = process.env.PORT;
