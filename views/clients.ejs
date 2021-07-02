@@ -9,13 +9,16 @@
                 <% clients.forEach(function(singleClient){ %>
 
                     <div class="col-xs-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 col-xxl-4">
-                        <div class="card clients__card" style="width: 18rem">
-                            <img class="clients__image" src=<%= singleClient.src %> class="card-img-top" alt="Client Logo">
-                            <div class="card-body clients__body">
-                                <h5 class="card-title clients__heading"> <%= singleClient.description %> </h5>
+                        <div class="clients__main">
+                            <div class="card clients__card" style="width: 18rem">
+                                <img class="clients__image" src=<%= singleClient.src %> class="card-img-top" alt="Client Logo">
+                                <div class="card-body clients__body">
+                                    <h5 class="card-title clients__heading"> <%= singleClient.description %> </h5>
+                                </div>
                             </div>
                         </div>
                     </div>
+                    
                 <% }) %>
             
         </div>
