@@ -306,5 +306,22 @@ body {
   display: flex;
   justify-content: center;
 }
+.clients__card {
+  width: 22rem;
+  height: 30rem;
+}
+.clients__image {
+  width: 21.8rem;
+  height: 24rem;
+}
+.clients__heading {
+  font-size: 1.6rem;
+  font-weight: 600;
+  color: #28b485;
+}
+
+.col-xs-12 {
+  padding-bottom: 5rem;
+}
 
 /*# sourceMappingURL=styles.css.map */

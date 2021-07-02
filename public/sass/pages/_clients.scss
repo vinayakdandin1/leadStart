@@ -31,4 +31,23 @@
         justify-content: center;
     }
 
+    &__card {
+        width: 22rem;
+        height: 30rem;
+    }
+
+    &__image {
+        width: 21.8rem;
+        height: 24rem;
+    }
+    &__heading {
+        font-size: 1.6rem;
+        font-weight: 600;
+        color: $color-primary-dark;
+    }
+
+}
+
+.col-xs-12 {
+    padding-bottom: 5rem;
 }

@@ -3,14 +3,12 @@
     <h3 class="heading-tertiary">Our Clients</h3>
 
     <div class="container">
-        <!-- Stack the columns on mobile by making one full-width and the other half-width -->
         <div class="row">
-            
-                <% clients.forEach(function(singleClient){ %>
+                <% clients.forEach(function(singleClient, index){ %>  
 
-                    <div class="col-xs-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 col-xxl-4">
+                    <div class="col-xs-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 col-xxl-4" >
                         <div class="clients__main">
-                            <div class="card clients__card" style="width: 18rem">
+                            <div class="card clients__card">
                                 <img class="clients__image" src=<%= singleClient.src %> class="card-img-top" alt="Client Logo">
                                 <div class="card-body clients__body">
                                     <h5 class="card-title clients__heading"> <%= singleClient.description %> </h5>
@@ -18,30 +16,8 @@
                             </div>
                         </div>
                     </div>
-                    
-                <% }) %>
-            
-        </div>
-      
-    </div>
 
-
-    <!-- <div class="clients">
-
-        
-
-            <% clients.forEach(function(singleClient){ %>
-
-                <div class="card clients__card" style="width: 18rem">
-                    <img class="clients__image" src=<%= singleClient.src %> class="card-img-top" alt="Client Logo">
-                    <div class="card-body clients__body">
-                    <h5 class="card-title clients__heading"> <%= singleClient.description %> </h5>
-                    </div>
-                </div>
-
-            <% }) %>
-     
-
-    </div> -->
-    
+                <% }) %>  
+        </div>  
+    </div> 
 </section>
